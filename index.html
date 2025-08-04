@@ -6,14 +6,21 @@
 </head>
 
 <body>
-    <label for="sortingSelect">Select sorting algorithm: </label>
-    <select id="sortingSelect">
-        <option>quicksort</option>
-        <option>mergesort</option>
-    </select>
-    <label id="inputArray">Input array: </label>
-    <input id="inputArray">
-    <button>Sort!</button>
+    <div>
+        <label for="sortingSelect">Select sorting algorithm: </label>
+        <select id="sortingSelect">
+            <option>quicksort</option>
+            <option>mergesort</option>
+        </select>
+    </div>
+    <div>
+        <label for="inputArray">Input array (comma separated): </label>
+        <input id="inputArray" , placeholder="e.g. 4, 8, 2, 5">
+    </div>
+    <div>
+        <button>Sort!</button>
+    </div>
+    <p id="output"></p>
 </body>
 
 </html>
